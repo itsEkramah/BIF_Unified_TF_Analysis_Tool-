@@ -19,27 +19,6 @@ Understanding transcription factors is central to gene regulation research. This
 * Visualize position weight matrices (PWMs) and TF-target networks.
 * Export integrated data for downstream analysis.
 
----
-## 🖼 Interface Example Screenshots
-
-### TP53 Analysis
-
-![TP53 Panel 1](https://raw.githubusercontent.com/itsEkramah/BIF_Unified_TF_Analysis_Tool-/main/INTERFACE%20EXAMPLE%20SCREENSHOTS/SCREENSHOT1%20TP53.png)  
-*Figure 1* 
-
-![TP53 Panel 2](https://raw.githubusercontent.com/itsEkramah/BIF_Unified_TF_Analysis_Tool-/main/INTERFACE%20EXAMPLE%20SCREENSHOTS/SCREENSHOT2%20TP53.png)  
-*Figure 2*
-
----
-
-### RELA Analysis
-
-![RELA Panel 1](https://raw.githubusercontent.com/itsEkramah/BIF_Unified_TF_Analysis_Tool-/main/INTERFACE%20EXAMPLE%20SCREENSHOTS/Screenshot1%20RELA.png)  
-*Figure 1*
-
-![RELA Panel 2](https://raw.githubusercontent.com/itsEkramah/BIF_Unified_TF_Analysis_Tool-/main/INTERFACE%20EXAMPLE%20SCREENSHOTS/Screenshot2%20RELA.png)  
-*Figure 2*
-
 
 ## ⚙️ How It Works
 
@@ -68,27 +47,27 @@ The application combines structured TSV data with live API lookups and AI-genera
 ✅ Data export functionality
 
 ---
-
-![image](https://github.com/user-attachments/assets/eb219e51-54a5-4dc8-8193-68b359346d12)
-## 🖼 Interface Example Screenshots
+## 🖼Graphic User Interface Example Screenshots
 
 ### TP53 Analysis
 
-![TP53 - Panel 1](screenshots/SCREENSHOT1%20TP53.png)  
-*Figure 1: TRRUST & CIS-BP results for TP53*
+![TP53 Panel 1](https://raw.githubusercontent.com/itsEkramah/BIF_Unified_TF_Analysis_Tool-/main/INTERFACE%20EXAMPLE%20SCREENSHOTS/SCREENSHOT1%20TP53.png)  
+*Figure 1* 
 
-![TP53 - Panel 2](screenshots/SCREENSHOT2%20TP53.png)  
-*Figure 2: PWM logo & network diagram for TP53*
+![TP53 Panel 2](https://raw.githubusercontent.com/itsEkramah/BIF_Unified_TF_Analysis_Tool-/main/INTERFACE%20EXAMPLE%20SCREENSHOTS/SCREENSHOT2%20TP53.png)  
+*Figure 2*
 
 ---
+
 ### RELA Analysis
 
-![RELA - Panel 1](screenshots/Screenshot1%20RELA.png)  
-*Figure 3: TRRUST & CIS-BP results for RELA*
+![RELA Panel 1](https://raw.githubusercontent.com/itsEkramah/BIF_Unified_TF_Analysis_Tool-/main/INTERFACE%20EXAMPLE%20SCREENSHOTS/Screenshot1%20RELA.png)  
+*Figure 1*
 
-![RELA - Panel 2](screenshots/Screenshot2%20RELA.png)  
-*Figure 4: PWM logo & network diagram for RELA*
+![RELA Panel 2](https://raw.githubusercontent.com/itsEkramah/BIF_Unified_TF_Analysis_Tool-/main/INTERFACE%20EXAMPLE%20SCREENSHOTS/Screenshot2%20RELA.png)  
+*Figure 2*
 
+---
 ## 🖥️ How to Use
 
 ### 🔧 1. Prerequisites
