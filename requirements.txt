@@ -1,0 +1,8 @@
+PyQt5
+pandas
+networkx
+matplotlib
+requests
+wikipedia
+openai
+logomaker
