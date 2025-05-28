@@ -1,0 +1,73 @@
+/* Global */
+QMainWindow {
+  background: #F7F9FC;
+  font-family: "Roboto", "Segoe UI", sans-serif;
+  color: #1E1E1E;
+}
+
+/* Scroll area content */
+QScrollArea > QWidget {
+  background: transparent;
+  margin: 16px;
+}
+
+/* Cards */
+QGroupBox {
+  background: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 12px;
+}
+QGroupBox::title {
+  subcontrol-origin: margin;
+  subcontrol-position: top left;
+  left: 12px; top: -8px;
+  padding: 0 4px;
+  color: #2979FF;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+/* Text panels */
+QTextEdit {
+  background: transparent;
+  border: none;
+  font-size: 11pt;
+  color: #555555;
+}
+
+/* Buttons */
+QPushButton {
+  background: #2979FF;
+  color: #FFFFFF;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 12pt;
+}
+QPushButton:hover {
+  background: #1967D2;
+}
+QPushButton:pressed {
+  background: #1565C0;
+}
+
+/* Line edits */
+QLineEdit {
+  background: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+  padding: 6px;
+  font-size: 11pt;
+}
+
+/* Labels */
+QLabel {
+  color: #1E1E1E;
+  font-size: 11pt;
+}
+
+/* Loading overlay */
+#loadingOverlay {
+  background: rgba(255,255,255,0.8);
+}
