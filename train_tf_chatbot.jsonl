@@ -1,0 +1,48 @@
+{"text": "USER: What is a transcription factor?\nBOT: A transcription factor (TF) is a protein that binds to specific DNA sequences to regulate gene expression."}
+{"text": "USER: Which databases are used in the Unified TF Analysis Tool?\nBOT: The tool integrates TRRUST, HOCOMOCO, CIS-BP, AnimalTFDB, and ChIP-Atlas."}
+{"text": "USER: What does TRRUST database provide?\nBOT: TRRUST provides curated TF-target interaction pairs with activation or repression effects."}
+{"text": "USER: How is PWM used in TF analysis?\nBOT: PWM (Position Weight Matrix) shows the binding probability of nucleotides at each position in a DNA motif recognized by a TF."}
+{"text": "USER: Can I visualize a TF network?\nBOT: Yes! The tool builds TF-target interaction graphs using NetworkX and displays them as network diagrams."}
+{"text": "USER: What does the PWM logo represent?\nBOT: The PWM logo is a graphical representation of a TF's DNA binding motif, showing the preferred nucleotides at each position."}
+{"text": "USER: How does your tool summarize TFs?\nBOT: It uses OpenAI\u2019s GPT model to generate summaries. If GPT fails, it uses Wikipedia as a fallback."}
+{"text": "USER: Can I export TF analysis results?\nBOT: Yes. You can export TRRUST, CIS-BP, and AnimalTFDB results to an Excel file for further use."}
+{"text": "USER: What programming language is your tool built with?\nBOT: The tool is developed in Python using PyQt5 for the GUI."}
+{"text": "USER: What makes your project different from other TF tools?\nBOT: It unifies five databases, visualizes motifs and networks, and provides AI-based summaries in a single GUI."}
+{"text": "USER: What does CIS-BP database provide?\nBOT: CIS-BP provides DNA-binding motif IDs and associated domain families for TFs."}
+{"text": "USER: What is HOCOMOCO?\nBOT: HOCOMOCO is a database of human and mouse transcription factor binding models presented as PWMs."}
+{"text": "USER: What does AnimalTFDB provide?\nBOT: AnimalTFDB provides TF annotations including protein family, GO terms, and localization information."}
+{"text": "USER: What is ChIP-Atlas used for?\nBOT: ChIP-Atlas gives experimentally validated TF binding data using ChIP-seq datasets."}
+{"text": "USER: Can I analyze multiple TFs at once?\nBOT: Currently, the tool supports one TF at a time, but future versions will support batch input."}
+{"text": "USER: What is a TF-target network?\nBOT: It's a visual graph showing which genes are regulated by a specific transcription factor."}
+{"text": "USER: What is the role of logomaker in this tool?\nBOT: Logomaker is used to visualize PWM motifs as DNA logos showing nucleotide preferences."}
+{"text": "USER: Which GUI framework did you use?\nBOT: The GUI is built using PyQt5, which supports responsive desktop applications."}
+{"text": "USER: How is data fetched from ChIP-Atlas?\nBOT: The tool uses the ChIP-Atlas API to fetch data dynamically via HTTP requests."}
+{"text": "USER: Can I see GO terms for TFs?\nBOT: Yes, AnimalTFDB provides Gene Ontology terms for each transcription factor."}
+{"text": "USER: What are E-scores?\nBOT: E-scores are metrics used to evaluate TF-target affinity. In this tool, mock E-scores are generated for demonstration."}
+{"text": "USER: What are Z-scores in your tool?\nBOT: Z-scores represent statistical relevance of TF-target links. These are also mocked for demo purposes."}
+{"text": "USER: Does your tool require internet?\nBOT: Yes, for ChatGPT summaries and ChIP-Atlas API; other modules work offline from TSV files."}
+{"text": "USER: What if a TF is not found in a database?\nBOT: The tool continues processing using available databases and skips missing data gracefully."}
+{"text": "USER: What file formats are supported for export?\nBOT: Results are exported in Excel (.xlsx) format using pandas."}
+{"text": "USER: What is the summary fallback option?\nBOT: If GPT API fails, the summary is fetched from Wikipedia automatically."}
+{"text": "USER: What kind of summaries does the tool generate?\nBOT: Short, 1-2 line functional summaries about the TF\u2019s role, domain, and disease relevance."}
+{"text": "USER: Can I use this for research papers?\nBOT: Yes, the tool provides exportable, publication-ready tables and graphs."}
+{"text": "USER: What data types are stored in tf_detailed_info.tsv?\nBOT: It stores TF names, targets, effects, motifs, network scores, and summaries."}
+{"text": "USER: Can this tool be deployed on web?\nBOT: Yes, it can be migrated to web using frameworks like Streamlit or Dash."}
+{"text": "USER: What\u2019s a common use case of this tool?\nBOT: Quick analysis of regulatory TFs in cancer, immune, or developmental studies."}
+{"text": "USER: Why use TSV and TXT files?\nBOT: They provide structured yet lightweight access to large-scale TF data."}
+{"text": "USER: Does your tool work for mouse or other species?\nBOT: Currently, it focuses on human TFs only. Future versions may support others."}
+{"text": "USER: What is a motif ID?\nBOT: It uniquely identifies a PWM motif associated with a TF in databases like HOCOMOCO or CIS-BP."}
+{"text": "USER: How do you handle errors in API calls?\nBOT: All API functions are wrapped with try-except blocks and fallback strategies."}
+{"text": "USER: Can I view TFs associated with cancer?\nBOT: Yes, the tool displays TFs linked with cancer types based on AnimalTFDB data."}
+{"text": "USER: Do you visualize upregulation or downregulation?\nBOT: Yes, effects like Activation and Repression are visualized in the TRRUST section and network edges."}
+{"text": "USER: What are TF domains?\nBOT: They are protein regions responsible for DNA binding, typically shown in CIS-BP results."}
+{"text": "USER: What if motif ID is missing?\nBOT: The PWM logo will be skipped, and the section will show 'No data available'."}
+{"text": "USER: How is your tool modular?\nBOT: Each functionality is separated into Python modules like `cisbp.py`, `network_builder.py`, `chatgpt_summary.py`, etc."}
+{"text": "USER: Is this tool beginner-friendly?\nBOT: Yes, it has a clean GUI, automated backend, and only requires TF name input."}
+{"text": "USER: Can this be extended to multi-omics?\nBOT: Yes, future plans include integration with RNA-seq, ATAC-seq, and other omics platforms."}
+{"text": "USER: How big is the motif file library?\nBOT: The pwms/ folder includes over 11,000 PWM files from HOCOMOCO."}
+{"text": "USER: How is the network graph generated?\nBOT: Using networkx, a directed graph is built from TF-target pairs and rendered with matplotlib."}
+{"text": "USER: What is tf_summary.py used for?\nBOT: It retrieves TF summaries from tf_detailed_info.tsv if ChatGPT/Wikipedia is not used."}
+{"text": "USER: What is export.py?\nBOT: It allows saving combined TRRUST, CIS-BP, and AnimalTFDB results into an Excel sheet."}
+{"text": "USER: What are the dependencies of this tool?\nBOT: They include PyQt5, pandas, matplotlib, networkx, requests, wikipedia, openai, and logomaker."}
+{"text": "USER: What if user inputs an invalid TF?\nBOT: The tool shows a message that no data is found and avoids crashing."}
